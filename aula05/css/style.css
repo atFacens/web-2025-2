@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* um elemento (tag) html */
+form {
+    margin: 20px;
+}
+
+/* "#" se refere ao id em particular */
+#titulo {
+    color: blue;
+
+}
+
+/* "." se refere a um grupo de tags que serão personalizadas */
+.menu {
+    background-color: gray;
+}
+
+/* componentes internos a outros */
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+}
+
+a.aqui {
+    color: darkgreen;
+}
+
+
+/* o que acontece quando "passa o mouse" sobre um componente */
+.menu a:hover {
+    color: black;
+} 
+
